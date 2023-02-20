@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "388050837273",
+    "project_id": "events-app-7f237",
+    "storage_bucket": "events-app-7f237.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388050837273:android:7073476b3e458933bb2f88",
+        "android_client_info": {
+          "package_name": "com.palestinian.events.app.events_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388050837273-ji3uee0ums1v76cb4oup4m4slb31d60n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcX2fPA6-Rij0Gz_jC-K3xb4YpcHCKSJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388050837273-ji3uee0ums1v76cb4oup4m4slb31d60n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
