@@ -4,9 +4,11 @@ import 'package:firebase_auth/firebase_auth.dart';
 class AuthController{
   static FirebaseAuth firebaseAuth = FirebaseAuth.instance;
 
-  static Future<UserCredential> signInWithCredential(AuthCredential authCredential){
+  /*static Future<UserCredential> signInWithCredential(AuthCredential authCredential){
     return firebaseAuth.signInWithCredential(authCredential);
   }
+  */
+
   static Future<void> sendSignInWithEmailLink(String email){
     return firebaseAuth.sendSignInLinkToEmail(
       email: email,

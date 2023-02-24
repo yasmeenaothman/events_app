@@ -1,14 +1,14 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-import '../../modules/home_screen.dart';
-import '../../modules/verify_screen.dart';
+import '../../modules/main_event_page.dart';
+import '../../modules/phone_verification_screen.dart';
 import '../../utils/constants.dart';
 import '../../utils/static_method.dart';
 import '../controllers/auth_controller.dart';
 
 class AuthRepo{
-  static int? resendToken;
+  /*static int? resendToken;
   static Future<bool> signInWithCredential(BuildContext context,AuthCredential authCredential) async {
     try{
       await AuthController.signInWithCredential(authCredential);
@@ -73,6 +73,12 @@ class AuthRepo{
       StaticMethods.showToast(Constants.enterTheCode);
     }
   }
+
+  */
+
+
+
+
 
   static Future<bool> sendSignInWithEmailLink(String email)async{
     try{
